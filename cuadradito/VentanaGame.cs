@@ -14,6 +14,9 @@ namespace cuadradito
     {
         
         cuadro cuadrito = new cuadro();
+        cuadro cuadroDer = new cuadro();
+        punto primerDer = new punto(4,4);
+        punto segundoDer = new punto(5, 5);
         punto primer = new punto(0, 0);
         punto segundo = new punto(1, 1);
         bool col=false;
@@ -43,64 +46,30 @@ namespace cuadradito
 
         protected override void OnRenderFrame(FrameEventArgs e)
         {
-            
             base.OnRenderFrame(e);
 
-if(!col){
-
-    primer.x += 0.5f;
-            if (primer.x >= 10)
-            {
+            if (!col){
+                primer.x += 0.5f;
+                if (primer.x >= 10)
+                {
                 col = true;
-                
+                }
             }
-
-}
 
             if (col)
             {
                 primer.x -= 0.5;
-
                 if (primer.x <= 0)
                 {
                     col = false;
-
                 }
             }
 
-
-
-
-            
-          
-
-            
-
-
-            
-
-         
-
-
-
-          
-                      segundo.x = primer.x + 1;
-
-
-                    cuadrito.Imprime(primer, segundo);
-                    
-                      this.SwapBuffers();
-                    
-                   
-                   
-
-                    
-                
-               
-               
-               
-     
-            
+            segundo.x = primer.x + 1;
+            segundoDer.x = primerDer.x + 1;
+            cuadroDer.Imprime(primerDer, segundoDer);
+            cuadrito.Imprime(primer, segundo);
+            this.SwapBuffers();
         }
     }
 }
