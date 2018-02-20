@@ -15,8 +15,9 @@ namespace cuadradito
         
         cuadro cuadrito = new cuadro();
         cuadro cuadroDer = new cuadro();
-        punto primerDer = new punto(4,4);
-        punto segundoDer = new punto(5, 5);
+        punto primerDer = new punto(0,5);
+        punto segundoDer = new punto(1, 9);
+
         punto primer = new punto(0, 0);
         punto segundo = new punto(1, 1);
         bool col=false;
@@ -50,7 +51,7 @@ namespace cuadradito
 
             if (!col){
                 primer.x += 0.5f;
-                if (primer.x >= 10)
+                if (primer.x >= primerDer.x)
                 {
                 col = true;
                 }
