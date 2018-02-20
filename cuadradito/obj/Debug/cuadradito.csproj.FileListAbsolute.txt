@@ -1,0 +1,40 @@
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\bin\Debug\cuadradito.exe.config
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\bin\Debug\cuadradito.exe
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\bin\Debug\cuadradito.pdb
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\bin\Debug\OpenTK.dll
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\bin\Debug\OpenTK.pdb
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\bin\Debug\OpenTK.xml
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\obj\Debug\cuadradito.csprojResolveAssemblyReference.cache
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\obj\Debug\cuadradito.exe
+c:\users\carlos.ahuactzin\documents\visual studio 2013\Projects\cuadradito\cuadradito\obj\Debug\cuadradito.pdb
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\bin\Debug\cuadradito.exe.config
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.exe
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.pdb
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.csprojResolveAssemblyReference.cache
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\bin\Debug\cuadradito.exe
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\bin\Debug\cuadradito.pdb
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.dll
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.pdb
+C:\Users\carlos.ahuactzin\Documents\Visual Studio 2013\Projects\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.xml
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\cuadradito.exe.config
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\cuadradito.exe
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\cuadradito.pdb
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.dll
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.pdb
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.xml
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\bin\Debug\OpenTK.dll.config
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.csprojResolveAssemblyReference.cache
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.csproj.CoreCompileInputs.cache
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.exe
+C:\Users\Carly\Desktop\pelotaCuadrada\cuadradito\obj\Debug\cuadradito.pdb
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\cuadradito.exe.config
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\cuadradito.exe
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\cuadradito.pdb
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\OpenTK.dll
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\OpenTK.pdb
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\OpenTK.xml
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\bin\Debug\OpenTK.dll.config
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\obj\Debug\cuadradito.csprojResolveAssemblyReference.cache
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\obj\Debug\cuadradito.csproj.CoreCompileInputs.cache
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\obj\Debug\cuadradito.exe
+C:\Users\Carly\Desktop\pelotaCuadrada\BouncingBallOpenGL\cuadradito\obj\Debug\cuadradito.pdb
