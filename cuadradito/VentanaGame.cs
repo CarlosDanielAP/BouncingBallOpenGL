@@ -49,6 +49,20 @@ namespace cuadradito
                 case 's':
                     primerDer.y -= 0.1;
                     break;
+                case '6':
+                    primerizq.x += 0.1;
+                    break;
+                case '4':
+                    primerizq.x -= 0.1;
+                    break;
+                case '8':
+                    primerizq.y += 0.1;
+                    break;
+                case '5':
+                    primerizq.y -= 0.1;
+                    break;
+
+
 
             }
         }
@@ -81,7 +95,10 @@ namespace cuadradito
             segundo.x = primer.x + 1;
             segundoDer.x = primerDer.x + 1;
             segundoDer.y = primerDer.y + 1;
+
             segundoizq.x = primerizq.x + 1;
+            segundoizq.y = primerizq.y + 1;
+
             cuadroDer.Imprime(primerDer, segundoDer);
             cuadroIzq.Imprime(primerizq, segundoizq);
             cuadrito.Imprime(primer, segundo);
