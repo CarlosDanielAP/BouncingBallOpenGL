@@ -16,15 +16,18 @@ namespace cuadradito
         {
             if (!choque)
             {
-                player.x += 0.5f;
-                if (player.x >= paredDer.x)
+                player.x += 0.1;
+                if (player.x >= paredDer.x&& player.y + paredDer.y >= -1 && player.y + paredDer.y <= 1)
                 {
-                    choque = true;
+                  
+                
+                        choque = true;
+                    
                 }
             }
             if (choque)
             {
-                player.x -= 0.5;
+                player.x -= 0.1;
                 if (player.x <= paredIzq.x)
                 {
                     choque = false;
