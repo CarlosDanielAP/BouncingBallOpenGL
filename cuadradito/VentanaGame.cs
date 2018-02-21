@@ -32,6 +32,18 @@ namespace cuadradito
         {
 
         }
+        protected override void OnKeyPress(KeyPressEventArgs e)
+        {
+            base.OnKeyPress(e);
+            switch (e.KeyChar)
+            {
+                case 'd':
+                    System.Console.WriteLine("w");
+                    primerDer.x += 0.1;
+                    break;
+               
+            }
+        }
 
         protected override void OnLoad(EventArgs e)
         {
@@ -53,6 +65,10 @@ namespace cuadradito
         protected override void OnRenderFrame(FrameEventArgs e)
         {
             miCol.Col(primer, primerDer, primerizq);
+
+
+
+
 
             segundo.x = primer.x + 1;
             segundoDer.x = primerDer.x + 1;
