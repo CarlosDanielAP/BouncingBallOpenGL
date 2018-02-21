@@ -38,10 +38,18 @@ namespace cuadradito
             switch (e.KeyChar)
             {
                 case 'd':
-                    System.Console.WriteLine("w");
                     primerDer.x += 0.1;
                     break;
-               
+                case 'a':
+                    primerDer.x -= 0.1;
+                    break;
+                case 'w':
+                    primerDer.y += 0.1;
+                    break;
+                case 's':
+                    primerDer.y -= 0.1;
+                    break;
+
             }
         }
 
@@ -72,6 +80,7 @@ namespace cuadradito
 
             segundo.x = primer.x + 1;
             segundoDer.x = primerDer.x + 1;
+            segundoDer.y = primerDer.y + 1;
             segundoizq.x = primerizq.x + 1;
             cuadroDer.Imprime(primerDer, segundoDer);
             cuadroIzq.Imprime(primerizq, segundoizq);
