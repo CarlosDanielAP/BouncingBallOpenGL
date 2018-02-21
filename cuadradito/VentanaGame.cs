@@ -12,15 +12,16 @@ namespace cuadradito
 {
     class VentanaGame : GameWindow
     {
-        
+        Colision miCol = new Colision();
         cuadro cuadrito = new cuadro();
         cuadro cuadroDer = new cuadro();
+
         punto primerDer = new punto(0,5);
         punto segundoDer = new punto(1, 9);
 
         punto primer = new punto(0, 0);
         punto segundo = new punto(1, 1);
-        bool col=false;
+     
          
 
         public VentanaGame(int ancho, int alto): base (ancho,alto)
@@ -47,24 +48,7 @@ namespace cuadradito
 
         protected override void OnRenderFrame(FrameEventArgs e)
         {
-            base.OnRenderFrame(e);
-
-            if (!col){
-                primer.x += 0.5f;
-                if (primer.x >= primerDer.x)
-                {
-                col = true;
-                }
-            }
-
-            if (col)
-            {
-                primer.x -= 0.5;
-                if (primer.x <= 0)
-                {
-                    col = false;
-                }
-            }
+            miCol.Col(primer, primerDer, primerDer);
 
             segundo.x = primer.x + 1;
             segundoDer.x = primerDer.x + 1;
