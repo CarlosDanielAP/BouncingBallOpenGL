@@ -25,7 +25,7 @@ namespace cuadradito
             if (choque)
             {
                 player.x -= 0.5;
-                if (player.x <= 0)
+                if (player.x <= paredIzq.x)
                 {
                     choque = false;
                 }

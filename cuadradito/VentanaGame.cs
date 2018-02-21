@@ -15,11 +15,15 @@ namespace cuadradito
         Colision miCol = new Colision();
         cuadro cuadrito = new cuadro();
         cuadro cuadroDer = new cuadro();
+        cuadro cuadroIzq = new cuadro();
 
         punto primerDer = new punto(0,5);
         punto segundoDer = new punto(1, 9);
 
-        punto primer = new punto(0, 0);
+        punto primerizq = new punto(0, 1);
+        punto segundoizq = new punto(1, 1);
+
+        punto primer = new punto(0, 2);
         punto segundo = new punto(1, 1);
      
          
@@ -48,11 +52,13 @@ namespace cuadradito
 
         protected override void OnRenderFrame(FrameEventArgs e)
         {
-            miCol.Col(primer, primerDer, primerDer);
+            miCol.Col(primer, primerDer, primerizq);
 
             segundo.x = primer.x + 1;
             segundoDer.x = primerDer.x + 1;
+            segundoizq.x = primerizq.x + 1;
             cuadroDer.Imprime(primerDer, segundoDer);
+            cuadroIzq.Imprime(primerizq, segundoizq);
             cuadrito.Imprime(primer, segundo);
             this.SwapBuffers();
         }
